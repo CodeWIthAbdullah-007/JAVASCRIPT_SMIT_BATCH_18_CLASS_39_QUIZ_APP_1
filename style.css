@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.quiz-card {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.quiz-card:hover {
+    transform: translateY(-8px);
+}
+
+.quiz-btn {
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+.html-btn {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+.css-btn {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+}
+
+.js-btn {
+    background: linear-gradient(45deg, #f7971e, #ffd200);
+    color: black;
+}
+
+.quiz-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
